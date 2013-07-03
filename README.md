@@ -1,9 +1,11 @@
 async-examples
 ==============
 
-Examples of using node.js async library
+Examples of using node.js [async](https://github.com/caolan/async) library.
 
 Just clone to a testing directory then try each function with node.
+
+Code comments have explanations.
 
 ````
 $ node reduce-examples.js
