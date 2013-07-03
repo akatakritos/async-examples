@@ -38,7 +38,7 @@ function detectSeriesExample( callback ) {
 function someExample( callback ) {
 	console.log("asyync.some");
 	async.some( items, greaterThanFiveDetector, function(result) {
-		console.log("Some greater than five: ", result);
+		console.log("Some greater than five:", result);
 
 		setTimeout(function() {
 			console.log();
@@ -50,7 +50,7 @@ function someExample( callback ) {
 function everyExample( callback ) {
 	console.log("async.every");
 	async.every( items, greaterThanFiveDetector, function(result) {
-		console.log("Every greater than five: ", result);
+		console.log("Every greater than five:", result);
 
 		setTimeout(function(){
 			console.log();

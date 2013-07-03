@@ -18,7 +18,7 @@ function mapToLength( item, callback ) {
 	});
 }
 
-var items = ["Matthew", "Mark", "Luke", "John"]
+var items = ["Matthew", "Mark", "Luke", "John"];
 
 /**
  * Example of async.reduce
